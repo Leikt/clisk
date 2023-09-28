@@ -24,6 +24,6 @@ optional-dependencies.build = [
     "twine>=4.0.2"
 ]
 
-#[project.urls]
-#"Homepage" = "https://github.com/pypa/sampleproject"
-#"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+[project.urls]
+"Homepage" = "https://github.com/Leikt/clisk"
+"Bug Tracker" = "https://github.com/Leikt/clisk/issues"

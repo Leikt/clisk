@@ -1,1 +1,1 @@
-from ._clisk import *
+from ._clisk import *  # NOQA

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "clisk"
-version = "0.0.3"
+version = "0.0.6"
 authors = [
     { name = "Robin LIORET", email = "robin.lioret@capgemini.com" },
 ]

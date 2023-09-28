@@ -1,5 +1,5 @@
 from pathlib import Path
-from typing import Type, Annotated, Callable, Optional
+from typing import Type, Annotated, Callable, Optional, Any
 
 import typer
 
@@ -11,7 +11,7 @@ __all__ = [
 verbose_callback = None
 
 
-def set_verbose_callback(callback: Callable[[int], ...]):
+def set_verbose_callback(callback: Callable):
     global verbose_callback
     verbose_callback = callback
 
